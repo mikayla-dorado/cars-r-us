@@ -1,0 +1,86 @@
+{
+    "paint": [
+        {
+        "id": 1,
+        "color": "silver",
+        "price": 300
+    }, {
+        "id": 2,
+        "color": "midnight blue",
+        "price": 250
+    }, {
+        "id": 3,
+        "color": "firebrick red",
+        "price": 400
+    }, {
+        "id": 4,
+        "color": "spring green",
+        "price": 350
+    }
+],
+"interior": [
+    {
+        "id": 1,
+        "fabric": "beige fabric",
+        "price": 1000
+    }, {
+        "id":2,
+        "fabric": "charcoal fabric",
+        "price": 800
+    }, {
+        "id": 3,
+        "fabric": "white leather",
+        "price": 2000
+    }, {
+        "id": 4,
+        "fabric": "black leather",
+        "price": 2500
+    }
+],
+"tech": [
+    {
+        "id": 1,
+        "package": "basic package",
+        "price": 500
+    }, {
+        "id":2,
+        "package": "navigation package",
+        "price": 1000
+    }, {
+        "id":3,
+        "package": "visibility package",
+        "price": 1500
+    }, {
+        "id": 4,
+        "package": "ultra package",
+        "price": 2000
+    }
+],
+"wheels": [
+    {
+        "id": 1,
+        "wheel": "17in pair radial",
+        "price": 200
+    }, {
+        "id": 2,
+        "wheel": "17in pair radial black",
+        "price": 250
+    }, {
+        "id": 3,
+        "wheel": "18in pair spoke silver",
+        "price": 300
+    }, {
+        "id": 4,
+        "wheel": "18in pair spoke black",
+        "price": 350
+    }
+], 
+"orders":[ {
+    "id":1,
+    "wheelId": 1,
+    "techId": 1,
+    "fabricId": 1,
+    "paintId": 1
+}
+]
+}
