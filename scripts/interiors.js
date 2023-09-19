@@ -2,7 +2,7 @@ import {setInteriorId} from "./transientstate.js"
 
 
 const handleInteriorChoice = (changeEvent) => {
-    if (changeEvent.target.id === "resource") {
+    if (changeEvent.target.id === "interior") {
        const chosenOption = changeEvent.target.value
        setInteriorId(parseInt(chosenOption))
     }
@@ -10,7 +10,7 @@ const handleInteriorChoice = (changeEvent) => {
 
 
 export const interiorOptions = async () => {
-    const response = await fetch("http://localhost:8088/interior")
+    const response = await fetch("http://localhost:8088/interiors")
     const interiors = await response.json()
 
     let html = `<h2>Interiors</h2>`

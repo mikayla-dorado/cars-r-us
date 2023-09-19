@@ -2,7 +2,7 @@ import {setWheelId} from "./transientstate.js"
 
 
 const handleWheelChoice = (changeEvent) => {
-    if (changeEvent.target.id === "resource") {
+    if (changeEvent.target.id === "wheel") {
        const chosenOption = changeEvent.target.value
        setWheelId(parseInt(chosenOption))
     }

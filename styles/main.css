@@ -1,0 +1,89 @@
+.button {
+    background-color: rgba(10, 73, 10, 0.747);
+    width: 150px;
+    height: 50px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+* {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    
+}
+
+.choices2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.choices__paints {
+    border: rgb(48, 135, 216) dotted 2px;
+    background-color: rgba(201, 201, 154, 0.979);
+    padding-bottom: 2%;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.choices__interior {
+    border: rgb(48, 135, 216) dotted 2px;
+    background-color: rgba(201, 201, 154, 0.979);
+    padding-bottom: 2%;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.choices__wheels {
+    border: rgb(48, 135, 216) dotted 2px;
+    background-color: rgba(201, 201, 154, 0.979);
+    padding-bottom: 2%;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.choices__technologies {
+    border: rgb(48, 135, 216) dotted 2px;
+    background-color: rgba(201, 201, 154, 0.979);
+    padding-bottom: 2%;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.order {
+    background-color: rgb(154, 175, 199);
+    border: dotted rgb(48, 135, 216) 2px;
+    font-size: large;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.orders {
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
